@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams,Link } from "react-router-dom";
 import {ProjectList} from '../Helpers/ProjectList'
 import '../styles/ProjectDisplay.css';
 function ProjectDisplay()
@@ -14,6 +14,9 @@ function ProjectDisplay()
             <p><b>Skills:</b>
                 {project.skill}
             </p>
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <Link to={project.github}>{project.github}</Link>
+            
             
         </div>
     );
