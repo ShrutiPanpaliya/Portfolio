@@ -1,24 +1,28 @@
-.project{
+.project {
+    width: 100%;
+    /* height: calc(100vh - 100px); */
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     flex-direction: column;
-}
-.project h1{
-    margin-top: 55px;
+  }
+  
+  .project h1 {
+    margin-top: 50px;
     color: brown;
     font-size: 35px;
-}
-.project img{
-    border-color: saddlebrown;
-    box-shadow: saddlebrown;
-    width: 700px;
-    box-sizing:content-box;
+  }
+  .project img {
+    width: 500px;
     border-radius: 10px;
-    
-}
-.project p{
-    font-size: 25px;
-    margin-top: 60px;
+  }
+  
+  .project p {
+    font-size: 40px;
     color: brown;
-}
+  }
+  
+  .project svg {
+    font-size: 60px;
+    color: brown;
+  }
